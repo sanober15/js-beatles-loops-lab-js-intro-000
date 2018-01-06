@@ -1,13 +1,13 @@
 function theBeatlesPlay(musicians, instruments){
   var a = [];
   var s;
-  for (var i = 0; i < musicians.length; i++, var j = 0; j++) {
-    s = `${musicians[i]} plays ${instruments[j]}`
+  for (var i = 0; i < musicians.length; i++) {
+    s = `${musicians[i]} plays ${instruments[i]}`
     a = [...a, s]
     a;
   }
   return a;
-  
+
 }
 
 
